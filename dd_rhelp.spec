@@ -1,6 +1,6 @@
 %define name dd_rhelp
 %define version 0.0.6
-%define release 1mdk
+%define release  %mkrel 1
 
 Summary: A hard disk rescue helper
 Name: %{name}
