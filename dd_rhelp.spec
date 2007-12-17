@@ -10,7 +10,6 @@ Source0: http://www.kalysto.org/pkg/%{name}-%{version}.tar.bz2
 License: GPL
 Group: System/Kernel and hardware
 Url: http://www.kalysto.org/utilities/dd_rhelp/index.en.html
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 Requires: dd_rescue
 
