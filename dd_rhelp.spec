@@ -26,14 +26,13 @@ read/write errors.
 %build
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 install -D -m 755 %{name} %{buildroot}%{_bindir}/%{name}
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
 %doc AUTHORS ChangeLog FAQ NEWS README THANKS TODO
-%{_bindir}/dd_rhelp
-
+%{_bindir}/%{name}
