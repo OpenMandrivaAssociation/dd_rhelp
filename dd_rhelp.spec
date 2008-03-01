@@ -1,12 +1,12 @@
 %define name dd_rhelp
-%define version 0.0.6
+%define version 0.1.2
 %define release  %mkrel 1
 
 Summary: A hard disk rescue helper
 Name: %{name}
 Version: %{version}
 Release: %{release}
-Source0: http://www.kalysto.org/pkg/%{name}-%{version}.tar.bz2
+Source0: http://www.kalysto.org/pkg/%{name}-%{version}.tar.gz
 License: GPL
 Group: System/Kernel and hardware
 Url: http://www.kalysto.org/utilities/dd_rhelp/index.en.html
@@ -24,12 +24,10 @@ read/write errors.
 %setup -q
 
 %build
-%configure
-%make
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%makeinstall
+install -D -m 755 %{name} %{buildroot}%{_bindir}/%{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
