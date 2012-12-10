@@ -36,3 +36,32 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc AUTHORS ChangeLog FAQ NEWS README THANKS TODO
 %{_bindir}/%{name}
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0.1.2-5mdv2011.0
++ Revision: 617523
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 0.1.2-4mdv2010.0
++ Revision: 427957
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 0.1.2-3mdv2009.0
++ Revision: 244009
+- rebuild
+
+* Sat Mar 01 2008 Olivier Blin <oblin@mandriva.com> 0.1.2-1mdv2008.1
++ Revision: 177369
+- 0.1.2
+- restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 0.0.6-1mdv2008.1
++ Revision: 123746
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import dd_rhelp
+
+
+* Sun Nov 13 2005 Olivier Blin <oblin@mandriva.com> 0.0.6-1mdk
+- initial Mandriva release
