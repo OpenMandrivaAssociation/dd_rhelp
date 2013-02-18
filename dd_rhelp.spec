@@ -12,7 +12,7 @@ Group: System/Kernel and hardware
 Url: http://www.kalysto.org/utilities/dd_rhelp/index.en.html
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
-Requires: dd_rescue
+Requires: dd-rescue
 
 %description
 dd_rhelp is a bash script that handles a very useful program written
