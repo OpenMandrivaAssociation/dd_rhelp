@@ -34,7 +34,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
-%doc AUTHORS ChangeLog FAQ NEWS README THANKS TODO
+%doc ChangeLog FAQ NEWS README THANKS TODO
 %{_bindir}/%{name}
 
 
