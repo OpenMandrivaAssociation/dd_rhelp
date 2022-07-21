@@ -4,8 +4,8 @@
 
 Summary: A hard disk rescue helper
 Name: %{name}
-Version: %{version}
-Release: %{release}
+Version: 0.3.0
+Release: 1%{release}
 Source0: http://www.kalysto.org/pkg/%{name}-%{version}.tar.gz
 License: GPL
 Group: System/Kernel and hardware
