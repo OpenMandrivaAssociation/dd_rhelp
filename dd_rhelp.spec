@@ -1,6 +1,3 @@
-%define name dd_rhelp
-%define version 0.3.0
-
 Summary:	A hard disk rescue helper
 Name:		dd_rhelp
 Version:	0.3.0
@@ -11,7 +8,7 @@ Url:		http://www.kalysto.org/utilities/dd_rhelp/index.en.html
 Source0:	http://www.kalysto.org/pkg/%{name}-%{version}.tar.gz
 
 BuildArch:	noarch
-Requires:	dd-rescue
+Requires:	dd_rescue
 
 %description
 dd_rhelp is a bash script that handles a very useful program written
