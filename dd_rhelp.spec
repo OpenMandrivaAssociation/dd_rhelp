@@ -4,7 +4,7 @@ Version:	0.3.0
 Release:	13
 License:	GPL
 Group:		System/Kernel and hardware
-Url:		http://www.kalysto.org/utilities/dd_rhelp/index.en.html
+Url:		https://www.kalysto.org/utilities/dd_rhelp/index.en.html
 Source0:	http://www.kalysto.org/pkg/%{name}-%{version}.tar.gz
 
 BuildArch:	noarch
